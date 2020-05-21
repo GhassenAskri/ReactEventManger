@@ -1,0 +1,41 @@
+.auth-container .auth-form,
+.auth-container video{
+    margin : 5rem auto;
+}
+.auth-form{
+    width: 30rem;
+    max-width: 50rem;
+    color: rgba(24, 20, 20, 0.548);
+}
+
+
+
+.form-action button{
+    border: 1px solid rgba(24, 20, 20, 0.548);
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.26);
+    padding : 0.75rem;
+    color: rgba(24, 20, 20, 0.548);
+    font-family: Font-Inconsolata-Medium;
+    transition-property: background-color ;
+    transition-duration: 1s ;
+    transition-timing-function: linear;
+
+}
+.form-action span{
+    color: rgba(24, 20, 20, 0.548);
+    font-family: Font-Inconsolata-Medium;
+    text-decoration: black underline;
+    display: block;
+    font-size : 0.75rem;
+    margin : 0.5rem 0.5rem;
+    cursor: pointer;
+}
+.form-action button:hover,
+.form-action button:active
+{
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+}

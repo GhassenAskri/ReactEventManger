@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form-control label{
+  width: 90%;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: Font-Inconsolata-Medium;
+}
+
+.form-control input{
+  width: 90%;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: Font-Inconsolata-Medium;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
+.form-control input :hover{
+  border: 1px solid black;
+  border-radius: 4px;
+}

@@ -1,0 +1,40 @@
+.Modal{
+    position: fixed;
+    width: 30rem;
+    background-color: white;
+    top : 10rem;
+    left : 33%;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.26);
+
+}
+
+.Modal header{
+
+}
+.Modal .footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+
+}
+.footer button{
+    margin-right: 1rem;
+    border: 1px solid rgba(24, 20, 20, 0.548);
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.26);
+    padding : 0.75rem;
+    color: rgba(24, 20, 20, 0.548);
+    font-family: Font-Inconsolata-Medium;
+    transition-property: background-color ;
+    transition-duration: 1s ;
+    transition-timing-function: linear;
+}
+.footer button:hover,
+.footer button:active
+{
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+}

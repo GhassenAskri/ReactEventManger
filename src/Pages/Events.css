@@ -1,0 +1,22 @@
+.event-creation{
+    padding: 1rem;
+    text-align: center;
+}
+.event-creation button {
+    border: 1px solid rgba(24, 20, 20, 0.548);
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.26);
+    padding : 0.75rem;
+    color: rgba(24, 20, 20, 0.548);
+    font-family: Font-Inconsolata-Medium;
+    transition-property: background-color ;
+    transition-duration: 1s ;
+    transition-timing-function: linear;
+}
+.event-creation button:hover,
+.event-creation button:active{
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+}
